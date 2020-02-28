@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  background-color: lightsteelblue;
+}
+h1,
+h2,
+h3,
+h4 {
+    color: darkblue;
+}
+h1,
+h2 {
+  font-family: "Georgia", serif;
+  margin: 0;
+}
+h1 {
+  border-bottom: 2px solid #eee;
+}
+h2 {
+  font-size: 1.2em;
+}
+
+p {
+  color: darkblue;
+}
+
+a {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+.pane {
+  position: absolute;
+  width: 80%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.header {
+  left: 50%;
+  text-align: center;
+}
+.name {
+  width: 50%;
+  display: inline-block;
+}
+.description {
+    width: 80%;
+}
+.price {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+.editdeletepane {
+    color: blue;
+    font-size: 0.75rem;
+}
+
+.flash {
+  background: #cee5f5;
+}
